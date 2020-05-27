@@ -1,0 +1,24 @@
+﻿{
+    "Servers": {
+        "AzureSQL": {
+            "Address": "usnc-sqlsvr01-dev.database.windows.net",
+            "Port": "1433"
+        },
+        "C2000_Replication": {
+            "Address": "mssql-dev-cvuerepl.charlie.kaplaninc.com",
+            "Port": "61582"
+        },
+        "C2000_OLTP": {
+            "Address": "mssql-dev-cvueoltp.charlie.kaplaninc.com\\DEVCVUEOLTP",
+            "Port": "1433"
+        },
+        "LMS": {
+            "Address": "mssql-dev-lms.charlie.kaplaninc.com\\DEVLMS",
+            "Port": "1433"
+        },
+        "Orion": {
+            "Address": "mssql-dev-orion.charlie.kaplaninc.com\\DEVOrion",
+            "Port": "1433"
+        }
+    }
+}

@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="Azure.Storage.Blobs" Version="12.4.2" />
+    <PackageReference Include="KT.Framework.Common" Version="3.5.5" />
+    <PackageReference Include="KT.Framework.Common.EventBus" Version="1.3.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\KT.MessageFileProcessor.Data\KT.MessageFileProcessor.Data.csproj" />
+  </ItemGroup>
+
+</Project>

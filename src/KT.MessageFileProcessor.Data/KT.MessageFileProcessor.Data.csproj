@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="KT.ActivityStream.Service.Definition" Version="3.2.0" />
+    <PackageReference Include="KT.Framework.Common" Version="3.5.5" />
+    <PackageReference Include="KT.Jobs.Service.Definition" Version="2.1.0" />
+  </ItemGroup>
+
+</Project>

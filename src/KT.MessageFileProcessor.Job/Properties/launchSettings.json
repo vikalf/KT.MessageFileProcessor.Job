@@ -1,0 +1,37 @@
+
+{
+  "profiles": {
+    "KT.MessageFileProcessor.Job.Dev": {
+      "commandName": "Project",
+      "commandLineArgs": "message-file-processor-student-events-xml",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "dev",
+        "ServiceDeadline": "10",
+        "REDIS_CONNECTIONSTRING_TLS": "usnc-cache-redis-dev01.redis.cache.windows.net:6380",
+        "REDIS_PASSWORD": "YXj429je9yhx3G7cmAhvk+SsmX6nYgQSLhiLRe6UdLA=",
+        "GRPC_Proxy": "172.22.32.252:4340",
+        "STUDENT_EVENTS_XML_JOB_NAME": "KT.MessageFileProcessor.Job.StudentEventsXml",
+        "SA_CONNECTION_STRING": "DefaultEndpointsProtocol=https;AccountName=pgsaastoragedev;AccountKey=fgeorcjE/sw16rGdFTDsSqmGsMSNPttneKmiF0L0n8Et3krMK5V/LucBCONMujPavOQt9iyadd6X/RA3quH/Dw==;EndpointSuffix=core.windows.net",
+        "SB_CONNECTION_STRING": "Endpoint=sb://sb-devkheeventbus.servicebus.windows.net/;SharedAccessKeyName=service_key;SharedAccessKey=afTWzUH4kH7Oo43mU0lwaxs0286dp7h8kmdITl4t2ho=",
+        "FILES_BLOB_CONTAINER_NAME": "files",
+        "PROCESSED_BLOB_CONTAINER_NAME": "processed"
+      }
+    },
+    "KT.MessageFileProcessor.Job.Stage": {
+      "commandName": "Project",
+      "commandLineArgs": "message-file-processor-student-events-xml",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "stage",
+        "REDIS_CONNECTIONSTRING_TLS": "usnc-cache-redis-stg01.redis.cache.windows.net:6380",
+        "REDIS_PASSWORD": "HFZdpUPtucIMJm09meKO9wmN5NIzUoLHgJ3moKXhzds=",
+        "ServiceDeadline": "10",
+        "GRPC_Proxy": "172.22.113.238:4340",
+        "STUDENT_EVENTS_XML_JOB_NAME": "KT.MessageFileProcessor.Job.StudentEventsXml",
+        "SA_CONNECTION_STRING": "",
+        "SB_CONNECTION_STRING": ""
+      }
+    }
+
+
+  }
+}
